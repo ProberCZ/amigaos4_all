@@ -1,0 +1,1742 @@
+## version $VER: AmiDisk.catalog 3.0 (05.10.2011) Kabara Jaroslav
+## language czech
+## codeset 5
+;
+; Version 3.00 (June 2007)
+;
+; Menus
+MSG_PROJECT
+Projekt
+; Project
+MSG_INFOS
+Informace
+; Infos
+MSG_COPYTOCLIP
+Kopírovat do schránky
+; Copy to clipboard
+MSG_NEW_BAR
+Nová nástrojová li¹ta
+; New bar
+MSG_READ_TOOLBAR
+Naèíst nástrojovou li¹tu
+; Load toolbar
+MSG_PREFS
+Nastavení
+; Preferences
+MSG_DISPLAY
+Zobrazení
+; Display
+MSG_CLASSES
+Tøídy
+; Classes
+MSG_KEYS
+Klávesy
+; Keys
+MSG_USERMENUS
+U¾ivatelská menu
+; User menus
+MSG_HIGHER_BUTTONS
+Tlaèítka nahoøe
+; Buttons top
+MSG_CENTER_BUTTONS
+Tlaèítka uprostøed
+; Buttons center
+MSG_LOWER_BUTTONS
+Tlaèítka dole
+; Buttons bottom
+MSG_QUIT
+Ukonèit
+; Quit
+;
+MSG_MACROS
+Makra
+; Macros
+MSG_DIRECT
+Pøímo
+; Direct
+MSG_CALLSCRIPT
+Vyvolat skript
+; Call script
+MSG_NEWSCRIPT
+Nový skript
+; New script
+MSG_EDITSCRIPT
+Upravit skript
+; Edit script
+MSG_MACRONAME
+Makro...
+; Macro...
+;
+; Infos requester
+MSG_DESCRIPTION
+Multitaskingový správce souborù
+; Free multitask file manager
+MSG_COMPILER
+Zkompilováno pomocí GCC 4.0.2 pro PowerPC
+; Compiled with GCC 4.0.2 for PowerPC
+MSG_AVAILABLE_MEMORY
+Celková instalovaná pamì» %s
+; Total installed memory %s
+MSG_VIRTUAL_FREE_MEMORY
+Volná virtuální pamì» %s
+; Free virtual memory %s
+;
+;s Tab titles
+MSG_PATHNUM
+Cesta %ld
+; Path %ld
+; Default list column headers (no _ here!)
+MSG_FILENAME
+Název
+; Name
+MSG_SIZE
+Velikost
+; Size
+MSG_BITS
+Bity
+; Bits
+MSG_DATE
+Datum
+; Date
+MSG_TIME
+Èas
+; Time
+MSG_COMMENT
+Komentáø
+; Comment
+MSG_SOURCE
+Zdroj
+; Source
+MSG_DESTINATION
+Cíl
+; Destination
+; Button gadgets (_ allowed)
+MSG_OBSOLETE_FORMAT
+
+; 
+MSG_OBSOLETE_REFRESH
+
+; 
+MSG_OBSOLETE_FREE
+
+; 
+; Titles of lists columns (sort)
+MSG_NAMEASC
+Název +
+; Name +
+MSG_SIZEASC
+Velikost +
+; Size +
+MSG_DATEASC
+Datum +
+; Date +
+MSG_NAMEDESC
+Název -
+; Name -
+MSG_SIZEDESC
+Velikost -
+; Size -
+MSG_DATEDESC
+Datum -
+; Date -
+MSG_NONESORT
+Nic
+; None
+;
+MSG_IGNORE
+_Ignorovat
+; _Ignore
+; Protect gui (REQBITS requester, can also use buttons OK, Pass, All and Cancel)
+MSG_HOLD
+_Ponechat
+; _Hold
+MSG_SCRIPT
+_Skript
+; _Script
+MSG_PURE
+P_ure
+; P_ure
+MSG_ARCHIVE
+Arch_ivovaný
+; Arch_ive
+MSG_READABLE
+Èitel_ný
+; _Read
+MSG_WRITEABLE
+Z_apisovatelný
+; _Write
+MSG_EXECUTABLE
+_Spustitelný
+; _Execute
+MSG_DELETABLE
+Smazat_elný
+; _Delete
+MSG_HSPARWED
+HSPARWED
+; HSPARWED
+;
+; Title of asl file requester loading an ARexx script
+MSG_SELECT_SCRIPT
+Zvolte skript
+; Select a script
+;
+; Shell windows title
+MSG_CONSOLE
+Výstupní okno programu AmiDisk
+; AmiDisk Output Window
+;
+; Messages used when copying files
+MSG_FILE_ALREADY_EXITS
+Soubor ji¾ existuje!
+; File already exists!
+MSG_OVERWRITE
+Chcete jej pøepsat?
+; Do you want to overwrite it ?
+MSG_FILEINFO
+%s Velikost : %lld bytù, Datum : %s %s
+; %s Velikost : %lld bytù, Datum : %s %s
+MSG_NEWFILE
+Nový soubor
+; New file
+MSG_OLDFILE
+Pùvodní soubor
+; Old file
+MSG_MOVE_WARNING
+Zvolením «Pass» odstraníte zdrojový\nsoubor bez jeho kopírování
+; Selecting «Pass» will delete the\nsource file without copying it
+;
+; Tabs titles (also returned by CONTENT function)
+MSG_VOLUMES_LIST
+Seznam médií
+; Volumes list
+MSG_DEVICES_LIST
+Seznam zaøízení
+; Devices list
+MSG_ASSIGNS_LIST
+Seznam assignù
+; Assigns list
+MSG_HISTORY_LIST
+Historie
+; History list
+;
+; Infos (bottom of listviews)
+MSG_STATS
+Volných: %s Oznaèeno: %s (%ldD/%ldF)
+; Free: %s Selection: %s (%ldD/%ldF)
+MSG_READING_DRAWER
+Naèítání adresáøe...
+; Reading drawer...
+MSG_DELETING_DRAWER
+Odstraòování %s...
+; Deleting %s...
+MSG_COPYING
+Kopírování %s...
+; Copying %s...
+MSG_RENAMING
+Pøejmenovávání %s...
+; Renaming %s...
+; CALCSIZE function message
+MSG_COMPUTING
+Vypoèítávání %s velikosti...
+; Computing %s size...
+;
+; Preferences messages
+; Requesters titles
+MSG_DISPLAY_PREFS
+Nastavení zobrazení programu AmiDisk
+; AmiDisk display prefs
+MSG_CLASSES_PREFS
+Nastavení tøíd programu AmiDisk
+; AmiDisk classes prefs
+MSG_KEYS_PREFS
+Nastavení kláves programu AmiDisk
+; AmiDisk keys prefs
+MSG_MENUS_PREFS
+Nastavení menu programu AmiDisk
+; AmiDisk menus prefs
+MSG_HIGHER_BUTTONS_PREFS
+Nastavení horních tlaèítek programu AmiDisk
+; AmiDisk higher buttons prefs
+MSG_CENTER_BUTTONS_PREFS
+Nastavení prostøedních tlaèítek programu AmiDisk
+; AmiDisk center buttons prefs
+MSG_LOWER_BUTTONS_PREFS
+Nastavení spodních tlaèítek programu AmiDisk
+; AmiDisk lower buttons prefs
+;
+MSG_SAVING_PREFS
+Ukládání nastavení
+; Saving prefs
+MSG_INCORRECT_FILETYPE
+Nesprávný typ souboru
+; Incorrect file type
+MSG_PREFS_FILETYPE
+Nesprávný formát souboru s nastavením
+; Incorrect prefs file format
+ERRMSG_UNEXPECTED_END_OF_FILE
+Neoèekávaný konec souboru
+; Unexpected end of file
+;
+; Strings used to create the titles of import/export requesters
+MSG_ACTION_TYPE
+akce
+; action
+MSG_CLASS_TYPE
+tøída
+; class
+MSG_BUTTON_TYPE
+tlaèítko
+; button
+MSG_MACRO_TYPE
+makro
+; macro
+MSG_MENU_TYPE
+menu
+; menu
+MSG_TOOLBAR_ACTION
+Nástr.li¹ta
+; toolbar
+MSG_DISPLAY_ACTION
+zobrazení
+; display
+MSG_KEYS_ACTION
+klávesy
+; keys
+MSG_WRITE_ACTION
+zápis
+; write
+MSG_READ_ACTION
+ètení
+; read
+MSG_SELECT_PREFS_FILE
+Vybrat %s soubor do %s
+; Select the %s file to %s
+;
+ERRMSG_ACTION_FILE
+Nejedná se o soubor s nastavením akcí
+; Not an action prefs file
+ERRMSG_CLASS_FILE
+Nejedná se o soubor s nastavením tøíd
+; Not a class prefs file
+ERRMSG_BUTTON_FILE
+Nejedná se o soubor s nastavením tlaèítek
+; Not a button prefs file
+ERRMSG_MACRO_FILE
+Nejedná se o soubor s nastavením maker
+; Not a macro prefs file
+ERRMSG_MENU_FILETYPE
+Nejedná se o soubor s nastavením menu nebo maker
+; Not a menu or macro prefs file
+ERRMSG_TOOLBAR_FILE
+Nejedná se o soubor s nastavením nástrojové li¹ty
+; Not a toolbar prefs file
+ERRMSG_PREFSFILE_NOT_FOUND
+Konfiguraèní soubor nenalezen
+; Preferences file not found
+ERRMSG_READING_PREFSMENU
+Chyba pøi naèítání nastavení menu
+; Error reading prefs menus
+ERRMSG_NO_DEFINED_MACRO
+Akce není definována
+; Action not defined
+ERRMSG_NO_DEFINED_BUTTON
+V této li¹tì nejsou tlaèítka
+; No button in this bar
+;
+; Screen mode
+MSG_SCREEN
+Obrazovka
+; Screen
+MSG_SCREENMODE
+Zobrazovací mód
+; Screen mode
+MSG_SCREENNAME
+Název obrazovky
+; Screen name
+MSG_SCREENFONT
+Písmo pro obrazovku
+; Screen font
+MSG_USEWORKBENCH
+Pou¾ít _Workbench
+; Use _Workbench
+MSG_SELECT_SCREENFONT
+Vyberte písmo
+; Select Screen font
+;
+; Paths
+MSG_PATHS
+Cesty
+; Paths
+MSG_LEFTPATH
+Levá strana
+; Left side
+MSG_RIGHTPATH
+Pravá strana
+; Right side
+MSG_SELECTPATH
+Vyberte cestu
+; Select a path
+MSG_COLUMNS
+Sloupce
+; Columns
+MSG_COLUMNS_PREFS
+Nastavení seznamu
+; List prefs
+MSG_SORT
+Tøídìní
+; Sort
+MSG_DEFAULT_VALUES
+Výchozí hodnoty
+; Default values
+MSG_BUFFERSIZE
+_Velikost kopírovacího zásobníku
+; _Copy buffer size
+MSG_MOUSE_WHEEL_STEP
+Krok koleèka my¹i
+; Mouse wheel step
+MSG_TOOLBAR
+Nástrojová li¹ta
+; Toolbar
+;
+; Dates format
+MSG_DATEFORMAT
+Formát data
+; Date format
+MSG_AMIGADOS
+AmigaDOS
+; AmigaDOS
+MSG_INTERNATIONAL
+Mezinárodní
+; International
+MSG_AMERICAN
+Americký
+; American
+MSG_CANADIAN
+Kanadský
+; Canadian
+MSG_DEFAULT_LOCALE
+Výchozí lokalizace
+; Default locale
+MSG_ISO_8601
+ISO 8601
+; ISO 8601
+;
+; Flags
+MSG_FLAGS
+Vlajky
+; Flags
+MSG_USEDOUBLE_CLIC
+_Pou¾ít dvojklik
+; _Use double clic
+MSG_BUBBLE_HELP
+_Bublinková nápovìda
+; _Bubble help
+MSG_FAST_REFRESH
+_Rychlá aktualizace
+; _Fast refresh
+MSG_CHECKEXISTINGFILES
+Potvrzovat kopírování
+; Confirm copy
+;
+; Requesters placement
+MSG_REQUESTERS
+_Dialogy
+; _Requesters
+MSG_CENTERSCREEN
+Støed obrazovky
+; Screen center
+MSG_CENTERMOUSE
+Následovat my¹
+; Follow mouse
+MSG_TOPLEFT
+Levý horní roh obrazovky
+; Screen top-left
+MSG_CENTERWINDOW
+Støed okna
+; Window center
+;
+; Window dimensions, fonts
+MSG_MAINWIN
+Hlavní okno
+; Main window
+MSG_DIMENSIONS
+Rozmìry
+; Dimensions
+MSG_TOPEDGE
+Horní okraj
+; Top edge
+MSG_LEFTEDGE
+Levý okraj
+; Left edge
+MSG_WIDTH
+©íøka
+; Width
+MSG_HEIGHT
+Vý¹ka
+; Height
+MSG_READACTUALVALUES
+_Naèíst aktuální hodnoty
+; _Read actual values
+;
+MSG_GADGETFONT
+Písmo tlaèítek
+; Gadgets font
+MSG_SELECT_GADGETFONT
+Písmo dialogù
+; Select Gadgets font
+MSG_LISTFONT
+Písmo seznamu
+; List font
+MSG_SELECT_LISTFONT
+Zvolte písmo seznamu
+; Select Lists font
+;
+; Clipboard copy
+MSG_HEADERDIR
+Hlavièka adresáøe
+; Directory header
+MSG_NONE
+®ádná
+; None
+MSG_DIR1
+ADR
+; DIR
+MSG_DIR2
+<ADR>
+; <DIR>
+MSG_DIRINSIZE
+Velikost=Adresáø
+; Size=Dir
+MSG_COPYALLFILES
+Kopírovat v¹echny polo¾ky
+; Copy all entries
+;
+; Classes
+MSG_CLASSNAME
+Název _tøídy
+; _Class name
+MSG_MATCHNAME
+Schoda názvu
+; Matc_h name
+MSG_AND_CONDITION
+AND
+; AND
+MSG_OR_CONDITION
+OR
+; OR
+MSG_XOR_CONDITION
+XOR
+; XOR
+MSG_AND_NOT_CONDITION
+AND NOT
+; AND NOT
+MSG_OFFSET1
+Odstup _1
+; Offset _1
+MSG_OFFSET2
+Odstup _2
+; Offset _2
+MSG_OFFSET3
+Odstup _3
+; Offset _3
+MSG_DEFICON
+Výchozí ikona
+; Default icon
+;
+; Actions
+MSG_ACTIONS
+Akce
+; Actions
+MSG_ACTION_NAME
+Název
+; Name
+; Title
+MSG_ACTION_COMMAND
+Pøíkaz
+; Command
+; Button
+MSG_COMMAND
+Pøí_kaz
+; Co_mmand
+MSG_ARGUMENTS
+Ar_gumenty
+; Ar_guments
+; Arguments types
+MSG_SOURCEFILENAME
+[f] Název souboru
+; [f] Filename
+MSG_COMPLETE_SOURCEFILENAME
+[F] Zdroj+Název souboru
+; [F] Source+Filename
+MSG_DESTINATION_DRAWER
+[d] Cílový adresáø
+; [d] Destination drawer
+MSG_COMPLETE_DESTINATION_DRAWER
+[D] Cílový adresáø (+ /)
+; [D] Destination drawer (+ /)
+MSG_REQUESTFILENAME
+[?] Dialog
+; [?] Request
+;
+; Commands types
+; Command modes (for actions)
+MSG_MODE
+Mó_d
+; Mod_e
+MSG_CLI
+CLI
+; CLI
+MSG_WB
+WB
+; WB
+MSG_NOCLI
+NoCLI
+; NoCLI
+MSG_AREXX
+ARexx
+; ARexx
+MSG_INTERNAL
+Interní
+; Internal
+;
+MSG_DELAY
+Zpo¾dìní
+; Dela_y
+MSG_STACK
+Zásob_ník
+; Stac_k
+MSG_DIRCMD
+Výchozí adresáø
+; Home directory
+MSG_REFRESHSOURCE
+Aktual_izovat zdroj
+; Re_fresh source
+MSG_REFRESHDESTINATION
+Aktua_lizovat cíl
+; Refresh des_tination
+;
+; Keys qualifiers
+MSG_QUALIFIER
+Kombinace
+; Qualifier
+MSG_NONEQUAL
+®ádný
+; None
+MSG_SHIFT
+SHIFT
+; SHIFT
+MSG_CTRL
+CTRL
+; CTRL
+MSG_ALT
+ALT
+; ALT
+MSG_SHIFT_ALT
+SHIFT-ALT
+; SHIFT-ALT
+MSG_SHIFT_CTRL
+SHIFT-CTRL
+; SHIFT-CTRL
+MSG_SHIFT_ALT_CTRL
+SHIFT-ALT-CTRL
+; SHIFT-ALT-CTRL
+MSG_ALT_CTRL
+ALT-CTRL
+; ALT-CTRL
+MSG_CHOOSE_KEY
+Zvolte klávesu
+; Choose a key
+MSG_NOKEYFOUND
+Klávesa nenalezena
+; No key found
+;
+MSG_SELECT_COMMAND
+Zvolte pøíkaz
+; Select a command
+ERRMSG_SELECTACTION
+Nejdøíve zvolte akci
+; Select an action first
+ERRMSG_SELECTCLASS
+Nejdøíve zvolte tøídu
+; Select a classe first
+ERRMSG_CLASSEXISTS
+Tato tøída ji¾ existuje
+; This class already exists
+ERRMSG_DELETECLASS
+Tuto tøídu nelze odstranit
+; Can't delete this class
+MSG_NEWCLASS_NAME
+_Nová tøída_
+; _NewClass_
+MSG_NEWACTION_NAME
+_Nová akce_
+; _NewAction_
+MSG_ACTION_EXIST
+Akce ji¾ existuje
+; Action already exists
+MSG_ACTION_NOT_DEFINED
+Akce není definována
+; Action not defined
+MSG_DEFINE_ACTION_NAME
+Zadejte název akce
+; Enter the action name
+MSG_ACTION_NAME_MISSING
+Chybí název akce
+; Missing action name
+ASK_REMOVE_ACTION
+Tato akce je pou¾ita v nìkterých tøídách.\nOpravdu chcete tuto akci odstranit?
+; Action is used in some classes\nDo you want to delete this action ?
+ASK_REPLACE_ACTION_IS_USED
+Tato akce je pou¾ita v nìkterých tøídách.\nPøejete si upravit její název\ni v tìchto tøídách?
+; Action is used in some classes\nDo you want to update this name\nin these classes ?
+ASK_RENAME_ACTION
+Opravdu si i pøes to pøejete\ntuto akci pøejmenovat?
+; Do you want to rename\nthis action anyway ?
+MSG_CHOOSE_CLASS
+Zvolte tøídu
+; Choose a classe
+;
+; Programmable menus
+MSG_MENUNUM
+Nabídka _%ld
+; Menu _%ld
+MSG_MENU_TITLE
+Název
+; Title
+;
+; Programmable buttons
+MSG_ICON
+Ikona
+; Icon
+MSG_BUTTON_LABEL
+Oznaèení
+; Label
+MSG_NORMAL_IMAGE
+Normální obrázek
+; Normal image
+MSG_SELECTED_IMAGE
+Vybraný obrázek
+; Selected image
+MSG_BUTTON_COMMAND
+Pøíkaz
+; Command
+MSG_TOGGLE
+Zamìnit
+; Toggle
+MSG_INITIAL_DEFINITION
+Definice stavu
+; State definition
+MSG_IGNORE_BUSY_SOURCE_TAB
+Ignorovat zaneprázdnìnou zdrojovou zálo¾ku
+; Ignore busy source tab
+MSG_CHECK_PATH
+Kontrola platné cesty
+; Check valid path
+MSG_CHECK_SELECTION
+Kontrola vybraných
+; Check selection
+MSG_CHECK_DESTINATION_TAB
+Kontrola cílové zálo¾ky
+; Check destination tab
+MSG_PROCESS_ALL_ENTRIES
+Zpracovat v¹echny vybrané polo¾ky
+; Process all selected entries
+MSG_IGNORE_DRAWERS
+Ignorovat adresáøe
+; Ignore drawers
+MSG_PROCESS_DRAWERS_ONLY
+Zpracovat pouze adresáøe
+; Process only drawers
+MSG_KEY
+Klávesa
+; Key
+ERRMSG_BADKEY
+Nesprávná klávesa
+; Incorrect key
+ERRMSG_KEY_IN_USE_IN_PREFS
+Upozornìní\nKlávesa je ji¾ pou¾ita\n(viz. Nastavení/Klávesnice)
+; Warning\nKey is already in use\n(see Preferences/Keys menu
+ERRMSG_KEYS_USED_BY_BUTTON
+Upozornìní\nKlávesa je také pou¾ita\n%s tlaèítkem\nv li¹tì %s
+; Warning\nKey is also used by\n%s button\nin %s toolbar
+MSG_CENTER_BAR
+Prostøední li¹ta
+; Center bar
+MSG_HIGHER_BAR
+Horní li¹ta
+; Higher bar
+MSG_LOWER_BAR
+Spodní li¹ta
+; Lower bar
+MSG_BUTTON_NUMBER
+Tlaèítko%ld-%ld
+; Button%ld-%ld
+MSG_INSERTBUTTON
+Vlo¾it
+; Insert
+MSG_IMPORT
+Importovat
+; Import
+MSG_EXPORT
+Exportovat
+; Export
+MSG_SELECT_IMAGE
+Zvolte obrázek
+; Select an image
+; Title of button requester
+MSG_BUTTON_PREFERENCES
+Nastavení tlaèítka
+; Button preferences
+ERRMSG_MISSING_IMAGE
+Chybí název obrázku
+; Image name missing
+MSG_SELECT_ICON
+Zvolte ikonu
+; Select an icon
+MSG_AVAILABLE_ACTIONS
+Zvolte akci
+; Select an action
+; Displayed label when image error
+MSG_IMAGE_ERROR
+Chyba
+; Error
+;
+; Some button gadgets
+; OK button (shortcut: Enter key)
+MSG_OK
+OK
+; OK
+MSG_COPY
+_Kopírovat
+; _Copy
+MSG_PASS
+_Pass
+; _Pass
+MSG_ALL
+_V¹e
+; _All
+; Cancel button (shortcut: Esc key)
+MSG_CANCEL
+Zru¹it
+; Cancel
+; Help button (shortcut: Help key)
+MSG_HELP
+Nápovìda
+; Help
+;
+; Preferences buttons
+MSG_NEWCLASS
+_Nový
+; _New
+MSG_SORTCLASSES
+Tøí_dit
+; So_rt
+MSG_DELETECLASSE
+Smazat
+; Delete
+MSG_NEWACTION
+_Pøidat
+; _Add
+MSG_SORTACTIONS
+Tøíd_it
+; S_ort
+MSG_REMOVEACTION
+Odstranit
+; Remove
+MSG_LOAD
+Naèíst...
+; Load...
+MSG_MERGE
+Spojit...
+; Merge...
+MSG_LOAD_LASTSAVED
+Naposledy ulo¾ené
+; Last saved
+MSG_INIT
+Inicializovat
+; Initialize
+MSG_SAVEPREFS
+_Ulo¾it
+; _Save
+MSG_SAVEAS_PREFS
+Ulo¾it jako...
+; Save as...
+; Use button (shortcut: Enter key)
+MSG_USEPREFS
+Pou¾it
+; Use
+;
+; Read ASCII file requester (buttons)
+MSG_TOP
+_Nahoru
+; _Top
+MSG_NEXTPAGE
+D_al¹í strana
+; Next _page
+; Continue button (shortcut: Enter)
+MSG_NEXTFILE
+Pokraèovat
+; Continue
+MSG_SEARCH
+_Najít
+; _Search
+MSG_NEXT
+_Dal¹í
+; _Next
+ERRMSG_NOT_FOUND
+Øetìzec nenalezen
+; String not found
+ERRMSG_BADHEXASTR
+Nesprávný hexa øetìzec
+; Incorrect hexa string
+ERRMSG_NOSEARCHSTRING
+Nebyl zadán hledaný øetìzec
+; No defined search string
+;
+; Default toolbar title
+MSG_NEWBAR_NAME
+Nová nástrojová li¹ta
+; New toolbar
+; Toolbar menus
+MSG_MENU_USE_TOOLBAR
+Pou¾ít
+; Use
+MSG_MENU_EDIT_TOOLBAR
+Upravit
+; Edit
+MSG_MENU_SAVE_TOOLBAR
+Ulo¾it
+; Save
+MSG_MENU_CLOSE
+Zavøít
+; Close
+MSG_MENU_ADD_BUTTON
+Pøidat
+; Add
+MSG_MENU_BAR
+Øádek/Sloupec
+; Line/Column
+MSG_MENU_BARTYPE
+Typ
+; Type
+MSG_MENU_HORIZONTAL
+Horizontální
+; Horizontal
+MSG_MENU_VERTICAL
+Vertikální
+; Vertical
+MSG_MENU_BUTTON
+Tlaèítko
+; Button
+MSG_MENU_EVEN_SIZE
+Stejná velikost
+; Even size
+MSG_MENU_TOLEFT
+Levý/horní
+; To left/top
+MSG_MENU_TORIGTH
+Pravý/dolní
+; To right/down
+MSG_MENU_REMOVE
+Odstranit
+; Remove
+;
+MSG_UNKNOWNCLASS
+Neznámá tøída
+; Unknown class
+MSG_DRAWER_CLASS
+[ADRESÁØ]
+; [DRAWER]
+MSG_MACRO_COMMAND
+Makro pøíkaz
+; Macro command
+MSG_MACRO_EXECUTION
+Spu¹tìní makra
+; Macro execution
+MSG_INIT_BUTTON
+Inicializace tlaèítka
+; Button initialisation
+MSG_MACRO_RESULT
+Výsledek makra
+; Macro result
+MSG_AVAILABLE_FUNCTIONS
+Dostupné funkce
+; Available functions
+MSG_SELECT_FILE
+Vyberte soubor
+; Select a file
+;
+; Messages used in DOS error requesters
+MSG_PATHNUMBER_HEADER
+AmiDisk cesta %ld
+; AmiDisk Path %ld
+MSG_PATHNUMBER_ERROR
+AmiDisk cesta %ld chyba
+; AmiDisk Path %ld error
+MSG_OPENING_DRAWER
+Otevírání adresáøe
+; AmiDisk opening drawer
+MSG_CREATING_DRAWER
+Vytváøení adresáøe
+; AmiDisk creating drawer
+MSG_OPENING_DEVICE
+Otevírání zaøízení
+; AmiDisk opening device
+MSG_OPENING_SOURCEFILE
+Otevírání zdrojového souboru
+; AmiDisk opening source file
+MSG_OPENING_DESTFILE
+Otevírání cílového souboru
+; AmiDisk opening destination file
+MSG_DELETING_FILE
+Odstraòování souboru
+; AmiDisk deleting file
+MSG_READING_FILE
+Naèítání souboru
+; AmiDisk reading file
+MSG_COPYING_FILE
+Kopírování souboru
+; AmiDisk copying file
+MSG_WRITING_FILE
+Ukládání souboru
+; AmiDisk writing file
+MSG_SETTING_DATE
+Nastavování datumu
+; AmiDisk setting date
+MSG_SETTING_COMMENT
+Pøidávání komentáøe
+; AmiDisk setting comment
+MSG_RENAMING_FILE
+Zmìna názvu souboru
+; AmiDisk renaming file
+MSG_EXAMINING_FILE
+Prozkoumávání souboru
+; AmiDisk examining file
+MSG_LOCKING_FILE
+Uzamykání souboru
+; AmiDisk locking file
+MSG_ASCIICHECK
+ASCII kontrola
+; AmiDisk ASCII check
+MSG_SETTING_BITS
+Nastavování protekèních bitù
+; AmiDisk setting bits
+MSG_FILTERING_FILES
+Filtrování souborù
+; AmiDisk filtering files
+MSG_GETTING_ICON
+Vytváøení ikony
+; AmiDisk getting icon
+; (message d'erreur création icône répertoire)
+MSG_DRAWER_ICON
+Ikona adresáøe
+; Drawer icon
+MSG_SAVING_ICON
+Ukládání ikony
+; AmiDisk saving icon
+MSG_SAVE_PREFS
+Ukládání nastavení
+; AmiDisk saving prefs
+MSG_READ_DRAWER
+Naèítání adresáøe
+; AmiDisk reading drawer
+MSG_OPENING_FILE
+Otevírání souboru
+; AmiDisk opening file
+MSG_ALLOCATING_DOSOBJECT
+Alokování DOS objektu
+; AmiDisk allocating DOS object
+MSG_INFOQUIT
+Po¾adavek na ukonèení programu
+; AmiDisk user request to quit
+MSG_ICONIFY
+Ikonifikace
+; AmiDisk iconify
+MSG_UPDATE_WINDOW
+Odlo¾ena aktualizace okna programu AmiDisk
+; AmiDisk window update defered
+MSG_INFO_COMMAND
+Pøíkaz Info
+; AmiDisk Info command
+MSG_RUNWBCOMMAND
+Pøíkaz RunWB
+; AmiDisk RunWB command
+MSG_RUNNING_TASK
+1 úkol je ji¾ spu¹tìn
+; 1 task is already running
+MSG_RUNNING_TASKS
+Je ji¾ spu¹tìno %ld úkolù
+; %ld tasks are already running
+ERRMSG_TASKBUSY
+Úkol je zaneprázdnìn
+; Task is busy
+ERRMSG_SOURCE_TASKBUSY
+Zdrojový úkol je zaneprázdnìn
+; Source task is busy
+ERRMSG_DEST_TASKBUSY
+Cílový úkol je zaneprázdnìn
+; Destination task is busy
+ERRMSG_NOSOURCE_SELECTED
+Nebyla vybrána zdrojová polo¾ka!
+; No source entry selected !
+ERRMSG_NO_SELECTED_DRAWER
+Nebyl vybrán zdrojový adresáø
+; No source drawer selected
+ERRMSG_NO_SELECTED_FILE
+Nebyl vybrán zdrojový soubor
+; No source file selected
+ERRMSG_NOACTIVEDRAWER
+Není nastaven aktivní adresáø
+; No current active drawer
+ERRMSG_NOTHING_TOCOPY
+Nelze nic kopírovat
+; Nothing to copy
+ERRMSG_LOCKEDLIST
+Seznam je uzamèen
+; List is locked
+ERMSG_OPERATION_IMPOSSIBLE
+Operace není mo¾ná
+; Operation impossible
+ERRMSG_LIBRARYVERSION
+Chyba pøi otevírání knihovny %s verze %ld
+; Error opening library %s version %ld
+ERRMSG_NOMEMORY
+Nedostatek pamìti
+; No such memory
+ERMMSG_DOSERROR
+DOS chyba
+; DOS error
+ERRMSG_AMIDISKERROR
+AmiDisk chyba
+; AmiDisk error
+ERMMSG_LISTFONT_ERROR
+Chyba pøi otevírání fontu pro seznam
+; Error opening list font
+ERRMSG_ALLOCSIGNAL
+Nelze alokovat signál
+; Can't allocate signal
+ERRMSG_FILEALREADYEXISTS
+Soubor s tímto názvem\nadresáøe ji¾ existuje
+; A file already exists\nwith this directory name
+ERRMSG_ICON_EXISTS
+Ikona ji¾ existuje
+; Icon already exists
+ERRMSG_UNDEFICON
+Nedefinovaná ikona
+; Undefined icon
+ERRMSG_FILENAME_TOOLONG
+Název souboru je pøíli¾ dlouhý
+; File name too long
+ERRMSG_FILENAME
+Nesprávný název souboru
+; Incorrect file name
+ERRMSG_VOLDRAWERNAME
+Nesprávný název zaøízení nebo adresáøe
+; Incorrect volume or drawer name
+ERRMSG_DESTDRAWER
+Nesprávný cílový adresáø
+; Incorrect destination drawer
+ERRMSG_EXAMFILE
+Nelze prozkoumat soubor
+; Can't examine file
+ERRMSG_CREATING_GUI
+Chyba pøi tvorbì GUI
+; Error creating GUI
+ERRMSG_OPENING_REQUESTER
+Nelze otevøít dialog
+; Can't open requester
+ERRMSG_MESSAGE_PORT
+Nelze otevøít port zpráv!
+; Can't open MessagePort!
+ERRMSG_OPEN_SCREEN
+Nelze otevøít obrazovku
+; Can't open screen
+ERRMSG_CLOSING_SCREEN
+Nelze uzavøít obrazovku :\njsou otevøeny náv¹tìvnická okna\nNejdøíve je zavøete
+; Closing the screen impossible :\nthere is a visitor window\nClose it before exiting
+ERRMSG_RUNTASK
+Chyba pøi vytváøení úlohy
+; Error creating task
+MSG_AMIGAGUIDE
+AmigaGuide zpráva
+; AmigaGuide message
+MSG_AMIGAGUIDE_ERROR
+AmigaGuide chyba
+; AmigaGuide error
+OBSOLETE_ERRMSG_LOADING_AMIGAGUIDE
+
+; 
+ERRMSG_ERROR_LOADING_GUIDE
+Nelze naèíst guide
+; Can't load guide
+MSG_UNKNOWN_ERROR
+Neznámá chyba
+; Unknown error
+MSG_ERROR_NUMBER
+Chyba %ld
+; Error %ld
+MSG_FUNCTION
+Chyba funkce %s
+; Function %s error
+ERRMSG_SYNTAX
+Chyba syntaxe
+; Syntax error
+ERRMSG_DIVIDE_ZERO
+Dìlení nulou
+; Division by zero
+ERRMSG_BAD_VALUE
+Nesprávná hodnota argumentu
+; Incorrect argument value
+ERRMSG_BAD_ALLOCATION
+Alokace není mo¾ná
+; Allocation impossible
+MSG_DOS_ERROR
+DOS chyba
+; DOS error
+ERRMSG_MISSING_OPERATOR
+Chybìjící operátor
+; Missing operator
+ERRMSG_TOO_COMPLEX
+Výraz je pøíli¹ slo¾itý
+; Expression too complex
+ERRMSG_ANALYSIS
+Chyba analýzy
+; Error analysis
+ERRMSG_STACK_OVERFLOW
+Pøeteèení zásobníku
+; Stack overflow
+ERRMSG_BAD_PARENTHESIS
+©patné závorky
+; Bad parenthesis
+ERRMSG_INCORRECT_ARGUMENT
+Nesprávný argument
+; Incorrect argument
+ERRMSG_BAD_ARGUMENT
+Nesprávný typ argumentu
+; Argument type mismatch
+ERRMSG_OPERATOR
+Nesprávný operátor
+; Incorrect operator
+ERRMSG_BAD_EXPRESSION
+Neúplný výraz
+; Uncomplete expression
+ERRMSG_INCORRECT_NUMBER
+©patné èíslo
+; Incorrect number
+ERRMSG_INCORECT_OPERAND
+©patný operand
+; Incorrect operand
+ERRMSG_BAD_OPERAND
+©patný typ operandu
+; Incorrect operand type
+ERRMSG_STRING_PROCESS
+Nelze zpracovat øetìzec
+; String processing impossible
+ERRMSG_BAD_STRING
+Nesprávný øetìzec
+; Incorrect string
+ERRMSG_FUNCTION_ALLREADY_DEFINED
+Funkce je ji¾ definována
+; Function allready defined
+ERRMSG_FUNCTIONS_DENIED
+Pøístup k funkci zamítnut
+; Functions access denied
+ERRMSG_FUNCTION_NAME
+Název funkce je pøíli¾ dlouhý
+; Function name too long
+ERRMSG_UNKNOWN_FUNCTION
+Neznámá funkce
+; Unknown function
+ERRMSG_ARG_NAME
+Nesprávný název argumentu
+; Incorrect argument name
+ERRMSG_ARG_NUMBER
+©patné èíslo argumentu
+; Bad argument number
+ERRMSG_SAME_ARGS
+Je dvakrát pou¾it stejný argument
+; Same argument used twice
+ERRMSG_BAD_VARIABLE
+Neschoda typu promìnné
+; Variable type mismatch
+ERRMSG_VARIABLE_NAME
+Název promìnné je pøíli¾ dlouhý
+; Variable name too long
+ERRMSG_VARIABLE_CREATION
+Nelze vytvoøit promennou
+; Creation of variable impossible
+ERRMSG_LOOP_OVERFLOW
+Cyklické pøeteèení
+; Loop overflow
+ERRMSG_BREAK_CALCS
+Pøeru¹ení výpoètu
+; Interruption of calculations
+ERRMSG_OPENING_PORT
+Chyba pøi otevírání ARexxového portu
+; Error opening ARexx Port
+ERRMSG_AREXX_PORT
+ARexxový port není k dispozici
+; ARexx port not available
+MSG_SCRIPT_NAME_TOO_LONG
+Název skriptu je pøíli¾ dlouhý
+; Script name too long
+ERRMSG_SCRIPT_NOT_FOUND
+Skript nenalezen
+; Script not found
+MSG_AREXX_ERROR
+ARexx: chyba %ld
+; ARexx: error %ld
+MSG_AREXX_COMMAND
+ARexxový pøíkaz
+; ARexx command
+MSG_SCRIPT_BREAK
+Provádìní skriptu bylo pozastaveno
+; Script execution halted
+ERRMSG_CONSOLE_DEVICE
+Chyba pøi otevírání console.device
+; Error opening console.device
+MSG_OPERATION_INTERRUPTED
+Operace pøeru¹ena
+; Operation interrupted
+ERRMSG_COMMON_SOURCE_DEST
+Obecný cíl a zdroj
+; Common destination and source
+ERRMSG_INCORRECT_TABNUMBER
+Nesprávné èíslo zálo¾ky
+; Incorrect tab number
+ERRMSG_TAB_NOT_INITIALIZED
+Zálo¾ka nebyla inicializována
+; Tab not initialized
+ERRMSG_BAD_ENTRY
+Nesprávné èíslo polo¾ky
+; Uncorrect entry number
+ERRMSG_BAD_BITS_STRING
+Nesprávný øetìzec ochranných bitù
+; Incorrect protect bits string
+ERRMSG_INCORRECT_DATE_STRING
+Nesprávné datum
+; Incorrect date string
+ERRMSG_INCORRECT_TIME_STRING
+Nesprávný èas
+; Incorrect time string
+ERRMSG_READING_KEYS
+Chyba pøi naèítání klávesových maker
+; Error reading key macro
+MSG_COMPARE_DATES
+Porovnávání datumù
+; Comparing dates
+ERRMSG_PREFS_ACCESS_DENIED
+Pøístup k nastavení zamítnuto
+; Prefs access denied
+ERRMSG_ENTRY_ALREADY_EXISTS
+Polo¾ka ji¾ existuje
+; Entry already exists
+ERRMSG_OPENING_FILE
+Chyba pøi otevírání souboru
+; Error opening file
+ERRMSG_READING_FILE
+Chyba pøi naèítání souboru
+; Error reading file
+ERRMSG_WRITING_FILE
+Chyba pøi ukládání souboru
+; Error writing file
+ERRMSG_READING_DATA
+Chyba pøi naèítání dat
+; Error reading data
+ERRMSG_CREATING_MENUS
+Chyba pøi vytváøení menu
+; Error creating menu
+ERRMSG_BITMAP_CREATION
+Chyba pøi vytváøení bitmapového obrázku tlaèítka
+; Error creating button bitmap image
+MSG_READING_TOOLBAR
+Chyba pøi naèítání nástrojové li¹ty
+; Error reading toolbar
+MSG_SAVING_TOOLBAR
+Chyba pøi ukládání nástrojové li¹ty
+; Error saving toolbar
+ERRMSG_MAX_ICON_NUMBER
+Nelze pøidat ¾ádné ikony (max. 256)
+; Can't add any icon (256 max)
+;
+; Bubble help
+HELPMSG_ACTIVE
+Zobrazení, jestli je tato\nstrana aktivní
+; Show if this side\nis the active one
+HELPMSG_TAB
+Vybere aktivní zálo¾ku
+; Select the active tab
+HELPMSG_PARENTDRAWER
+Naète nadøazený adresáø\nv aktuální zálo¾ce
+; Read the parent drawer\nin the current tab
+HELPMSG_PATH
+Obsahuje cestu\naktuální zálo¾ky
+; Contain the path\nof the current tab
+HELPMSG_OBSOLETE_REFRESH
+
+; 
+HELPMSG_OBSOLETE_FREE
+
+; 
+HELPMSG_LIST
+Seznam adresáøù a souborù v aktuální zálo¾ce
+; List of drawers and files of the current tab
+HELPMSG_GAUGE
+Zobrazí informace o vybraných\nadresáøích a souborech nebo\npøi kopírování a mazání souborù
+; Give information on selected\ndrawers and files or when\ncopying and deleting files
+;
+; Preferences
+; Display tab
+HELPMSG_USEWB
+Pou¾ite obrazovku Workbenche nebo svou vlastní
+; Use Workbench screen or own screen
+HELPMSG_SCREENMODE
+Vlastní zobrazovací mód
+; Own screen mode
+HELPMSG_SCREENNAME
+Název vlastní obrazovky
+; Name of own screen
+HELPMSG_SCREENFONT
+Písmo pou¾ité pro zobrazení nabídek
+; Font used to display menus
+HELPMSG_LEFTPATH
+Obsah path1 pøi spu¹tìní
+; Content of path1 at startup
+HELPMSG_COLUMNS
+Nastavení poøadí tøídìní\na ¹íøky sloupcù\nseznamu
+; Define the sort order\nand the columns width\nof the list
+; List columns requester
+HELPMSG_SORT_ORDER
+Nastavuje poøadí, jakým bude\nzobrazen seznam
+; Define in which order\nthe list will be displayed
+HELPMSG_COLUMN_WIDTH
+Nastavení ¹íøky sloupce v pixelech\nZadejte nulovou nebo negativní\nhodnotu pro odstranìní sloupce
+; Define the column width in pixels\nEnter a null or negative\nvalue to remove the column
+HELPMSG_INIT
+Poèítá výchozí hodnoty\npro ka¾dý sloupec
+; Computes default values\nfor each column
+HELPMSG_ACTUAL_VALUES
+Naète hodnoty pou¾ité v oknì\npro ka¾dý sloupec
+; Read values used in the window\nfor each column
+HELPMSG_RIGHTPATH
+Obsah path 6 pøi spu¹tìní
+; Content of path 6 at startup
+HELPMSG_PREFSDOUBLE_CLIC
+Nastavení stavu dvojitého\nkliku my¹í pøi spu¹tìní
+; Give the state of the\ndouble clic button at startup
+HELPMSG_BUBBLE_HELP
+Povolení bublinkové nápovìdy
+; Enable bubble help if marked
+HELPMSG_FAST_REFRESH
+Povolit rychlé zobrazování\nNeaktualizuje seznam souborù\npro ka¾dou operaci se soubory,\npouze na konci\ncelé operace
+; Enable fast display\nDon't update the listview\nfor each file operation\nbut only at the end\nof the full operation
+HELPMSG_BUFFERSIZE
+Velikost vyrovnavací pamìti pro kopírování
+; Size of copy buffer
+HELPMSG_CHECKEXISTINGFILES
+Otevøe dialog pro potvrzení\npøepsání souborù\npomocí pøíkazu LISTPAST\npøi oznaèení
+; Open a requester to confirm\noverwriting files\nusing LISTPAST command\nwhen marked
+HELPMSG_REQUESTERS
+Nastavení umístìní dialogù
+; Define requesters placement
+HELPMSG_DATEFORMAT
+Formát pro zobrazení datumù
+; Format used to display dates
+HELPMSG_HELP
+Spu¹tìní AmigaGuide nápovìdy.\nSoubor AmiDisk.guide\nmusí být pøítomen.\nStisknìte klávesu SHIFT\npro zapnutí bublinkové nápovìdy
+; Call the AmigaGuide help\nThe AmiDisk.guide\nfile must be present\nPress the Shift key\nto toggle bubble help
+HELPMSG_HEADERDIR
+Nastavení hlavièky pou¾ité\npro adresáøe pøi vyu¾ití\nmenu Projekt/Kopírovat
+; Define the header used\nfor drawers when using\nthe Project/Copy to clipboard menu
+HELPMSG_DIRNAME
+Kopírování názvù vybraných\nsouborù a adresáøù
+; To copy or not names of\nselected files and drawers
+HELPMSG_CLIPSIZE
+Kopírování velikostí souborù
+; To copy or not file sizes
+HELPMSG_CLIPBITS
+Kopírování ochranných bitù
+; To copy or not protection bits
+HELPMSG_CLIPDATE
+Kopírování data
+; To copy or not date
+HELPMSG_CLIPTIME
+Kopírování èasu
+; To copy or not time
+HELPMSG_CLIPCOMMENT
+Kopírování komentáøù
+; To copy or not comments
+HELPMSG_COPYALLFILES
+Copy all entries when validated\nor selected entries only
+; Copy all entries when validated\nor selected entries only
+HELPMSG_USECLIP
+Copy data of the source tab\nin the clipboard\nusing current prefs
+; Copy data of the source tab\nin the clipboard\nusing current prefs
+HELPMSG_CANCELCLIP
+Cancel requester\nNo action will be performed
+; Cancel requester\nNo action will be performed
+HELPMSG_TOPEDGE
+Top edge of main window\nat startup
+; Top edge of main window\nat startup
+HELPMSG_WIDTH
+Width of main window\nat startup
+; Width of main window\nat startup
+HELPMSG_LEFTEDGE
+Left edge of main window\nat startup
+; Left edge of main window\nat startup
+HELPMSG_HEIGHT
+Height of main window\nat startup
+; Height of main window\nat startup
+HELPMSG_ACTUALVALUES
+Kopírovat rozmìr hlavního\nokna
+; Copy dimensions of main\nwindow in upper gadgets
+HELPMSG_GADGETSFONT
+Písmo pou¾ité pro zobrazení\ntlaèítek
+; Font used to display\nbutton gadgets
+HELPMSG_LISTFONT
+Písmo pou¾ité pro zobrazení\nseznamù
+; Font used to display\nlists
+HELMPSG_MOUSE_WHEEL_STEP
+Poèet øádkù, které jsou\nposunovány pomocí\nkoleèka my¹i v seznamu souborù
+; Number of lines that are\nscrolled using the\nmouse wheel in a listview
+;
+; Classes tab
+HELPMSG_CLASSES
+List of files classes\nand associated actions
+; List of files classes\nand associated actions
+HELPMSG_CLASSNAME
+Contain the class\nname for editing
+; Contain the class\nname for editing
+HELPMSG_CLASSSUFFIX
+Define the name of\nthe class if any\nUse the AmigaDOS filters (#?[])
+; Define the name of\nthe class if any\nUse the AmigaDOS filters (#?[])
+HELPMSG_CONDITIONS
+Define the fonction used\nbetween name and offsets
+; Define the fonction used\nbetween name and offsets
+HELPMSG_OFFSET
+Define the content of the file\n3 strings can be defined\nMust be of the form\noffset,hexstring\noffset,'ASCII string' (case sensitive)\nor offset,\"ASCII string\" (unsensitive)
+; Define the content of the file\n3 strings can be defined\nMust be of the form\noffset,hexstring\noffset,'ASCII string' (case sensitive)\nor offset,\"ASCII string\" (unsensitive)
+HELPMSG_CLASSICON
+Select a default icon\nassociated to the file\n(Add icon button)
+; Select a default icon\nassociated to the file\n(Add icon button)
+HELPMSG_ACTIONUP
+Move the selected action\none place to the top\nin the action list\nfor the current class
+; Move the selected action\none place to the top\nin the action list\nfor the current class
+HELPMSG_ACTIONDOWN
+Move the selected action\none place to the end\nin the action list\nfor the current class
+; Move the selected action\none place to the end\nin the action list\nfor the current class
+HELPMSG_ADDCLASS
+Pøidá novou tøídu
+; Add a new class
+HELPMSG_SORTCLASS
+Tøídit seznam tøíd podle názvu
+; Sort the class list by name
+HELPMSG_DELCLASS
+Odstraní vybrané tøídy\nnebo vybrané akce
+; Delete the selected class\nor the selected action
+HELPMSG_ACTIONS
+Seznam akcí\nKliknìte dvakrát pro výbìr\nasociované tøídy
+; List of actions\nDouble clic to select\nan associated class, if any
+HELPMSG_ACTIONNAME
+Obsahuje název vybrané\nakce pro úpravu
+; Contain the name of the\nselected action for editing
+HELPMSG_ACTCOMMAND
+Obsahuje pøíkaz asociovaný k vybrané\nakci pro úoravu
+; Contain the command associated to the\nselected action for editing
+HELPMSG_SELECT_ACTION
+Otevøe dialog pro\nvýbìr akce
+; Open a requester to\nselect an action
+HELPMSG_LOADCMD
+Otevøe dialog pro výbìr pøíkazu
+; Open a requester to select a command
+HELPMSG_ARGUMENTS
+Pøidá argumenty na pøíkazovou øádku
+; Add arguments to the command line
+HELPMSG_ARGUMENTS_STRING
+Argumenty pøidané na pøíkazovou øádku
+; Arguments added to the command line
+HELPMSG_ACTIONMODE
+Výbìr módu pro volání akce\nCLI : otevøe konzoli\nWB : spu¹tìní programu z WB\nNoCLI : neotevøe konzoli\nARexx : spustí ARexx rx pøíkaz\nInterní : spustí pøíkaz AmiDisku
+; Select the mode for calling the action\nCLI : open a console\nWB : launch the program from WB\nNoCLI : no console is opened\nARexx : call the ARexx rx command\nInternal : call an AmiDisk command
+HELPMSG_STACK
+Nastavení zásobníku\nspojeného s akcí
+; Define the stack associated\nwith the action
+HELPMSG_DELAY
+Nastavení zpo¾dìní na\nkonci akce\n(pouze CLI a ARexx)\n-1 : èekání na u¾ivatele\n0 : neèekat\n>0 : èekat n vteøin
+; Define the delay at\nthe end of the action\n(CLI and ARexx only)\n-1 : waits for user\n0 : don't wait\n>0 : waits n seconds
+HELPMSG_DIRCMD
+Aktuální adresáø pou¾itý pøi spu¹tìní programu
+; Current directory used when launching program
+HELPMSG_REFRESHSRC
+Definování, jestli zdrojový\nseznam bude aktualizován po\nprovedení akce
+; Define if the source list\nwill be refreshed after\naction has been executed or not
+HELPMSG_REFRESHDEST
+Definování, jestli cílový\nseznam bude aktualizován po\nprovedení akce
+; Define if the destination\nlist will be refreshed after\naction has been executed or not
+HELPMSG_ADDACTION
+Pøidá vybranou akci\naktuální tøídì
+; Add the selected action\nto the current class
+HELPMSG_NEWACTION
+Pøidá novou akci
+; Add a new action
+HELPMSG_TRI_ACTIONS
+Tøídit podle názvu
+; Sort actions by name
+HELPMSG_REMOVEACTION
+Odstraní vybranou akci\nze seznamu akcí
+; Remove the selected action\nfrom the action list
+HELPMSG_LOAD
+Výbìr a naètení konfiguraèního\nsouboru z disku
+; Select and load a prefs\nfile from disk
+HELPMSG_LOAD_LAST_SAVED
+Naète naposledy ulo¾ený\nsoubor z ENVARC:
+; Load last saved\nfile from ENVARC:
+; Keys tab
+HELPMSG_QUALIFICATEUR
+Qualifier key
+; Qualifier key
+HELPMSG_MACROKEY
+Makro asociované ke klávese
+; Macro associated to the key
+HELPMSG_FUNCTIONS
+Otevøe dialog pro funkce
+; Call the functions requester
+HELPMSG_OTHERKEY
+Ostatní klávesy
+; Other key
+HELPMSG_SEARCHKEYS
+Look for keys if any\nfor the current qualifier
+; Look for keys if any\nfor the current qualifier
+HELMPMSG_MENUTITLE
+Název menu
+; Menu title
+HELMPMSG_MENUMACRO
+Makro asociované k menu
+; Macro associated to the menu
+; ReadHex and ReadAscii windows
+HELPMSG_SEARCH
+Zadejte hexa øetìzec pro vyhledání\nnebo pou¾ijte \"xx\" pro zadání ascii výrazu
+; Enter an hexa string to search\nor use \"xx\" to enter an ascii string
+HELPMSG_HEXA
+Zobrazení obsahu souboru\nOffset: Hexa obsah - ASCII
+; Display of file content\nOffset: Hexa content - ASCII
+HELPMSG_ASCIITEXT
+Zobrazí ASCII obsah souboru\nMù¾ete pou¾ít koleèko my¹i\npro posun stránky (pokud je to nutné)\nMù¾ete také vybrat èást\ntextu pro kopírování do schránky
+; Display ASCII content of file\nYou can use the mouse wheel\nto scroll the page if necessary\nYou can also select a part of\ntext to copy it in the clipboard
+HELPMSG_SCROLLER
+Zmìní offset souboru
+; Change file offset
+HELPMSG_CONTINUE
+Uzavøe dialog\nOtevøe dal¹í soubor
+; Close requester\nOpen next file if any
+HELPMSG_NEXT
+Vyhledá dal¹í výraz v souboru
+; Search next string in file
+HELPMSG_FILETOP
+Pøejde na zaèátek souboru
+; Go to file beginning
+HELPMSG_NEXTPAGE
+Zobrazit dal¹í stránku souboru
+; Display next file page
+HELPMSG_CANCELSEARCH
+Zru¹it dialog
+; Cancel requester
+; Toolbar
+OBSOLETE_HELPMSG_TOOLBAR
+
+; 
+HELPMSG_LOAD_TOOLBAR
+Externí nástrojová li¹ta pøi spu¹tìní
+; External toolbar loaded at startup
+HELPMSG_NORMAL_IMAGE
+Obrázek zobrazený v nástrojové li¹tì
+; Image to display in the toolbar
+HELPMSG_SELECTED_IMAGE
+Volitelnì zobrazený obrázek,\npokud je vybrána ikona
+; Optional image displayed\nwhen the icon is selected
+HELPMSG_SELECT_IMAGE
+Otevøe ASL dialog\npro výbìr obrázku
+; Open an asl requester\nto select an image
+HELPMSG_LABEL
+Volitelný titulek\nzobrazený pod ikonou
+; Optional label to display\nunder the icon
+HELPMSG_IMAGE_HELP
+Text zobrazený v\nli¹tì okna, pokud je\nvybrána ikona
+; Text displayed in\nthe window title bar\nwhen the icon is selected
+HELPMSG_IGNORE_BUSY_SOURCE
+Pøíkaz bude spu¹tìn i\nv pøípadì, ¾e je zálo¾ka zaneprázdnìna
+; Command will be launched\neven if the tab is busy
+HELPMSG_CHECK_SOURCE_PATH
+Pøíkaz bude spu¹tìn pouze\nv pøípadì, ¾e zálo¾ka\nobsahuje platnou cestu
+; Command will be launched\nonly if the tab contains\na valid path
+HELPMSG_CHECK_SELECTION
+Pøíkaz bude spu¹tìn pouze\nv pøípadì, ¾e jsou vybrány nìkteré polo¾ky
+; Command will be launched\nonly if some entries are selected
+HELPMSG_CHECK_DESTINATION
+Pøíkaz bude spu¹tìn pouze\nv pøípadì, ¾e cílová zálo¾ka\nobsahuje platnou cestu
+; Command will be launched\nonly if the destination tab\ncontains a valid path
+HELPMSG_PROCESS_ALL_ENTRIES
+Pøíkaz bude spu¹tìn pouze\npro ka¾dou vybranou polo¾ku
+; Command will be launched\nfor each selected entry
+HELPMSG_IGNORE_DRAWERS
+Pøíkaz bude spu¹tìn pouze\npro soubory
+; Command will be launched\nonly for files
+HELPMSG_PROCESS_DRAWERS_ONLY
+Pøíkaz bude spu¹tìn pouze\npro adresáøe
+; Command will be launched\nonly for drawers
+HELPMSG_KEY
+Pøidru¾ená klávesa
+; Associated key
+HELPMSG_BUTTON_NAME
+Název tlaèítka
+; Name of the button
+HELPMSG_TOGGLE_BUTTON
+Slou¾í k vytvoøení\ndvoustavového tlaèítka
+; Used to create\na bistable button
+HELPMSG_STATE_DEFINITION
+Interní makro pou¾ité\npro nastavení základního\nstavu tlaèítka
+; Internal macro used\nto define the initial\nstate of the button
+HELPMSG_IMAGE_PREVIEW
+Náhled obrázku tlaèítka
+; Images button preview
+HELPMSG_IMPORT
+Naète data ze souboru
+; Read data from a file
+HELPMSG_EXPORT
+Ulo¾í data do souboru
+; Save data to a file
+HELPMSG_IMPORT_ACTION
+Naète akce ze souboru
+; Read action from a file
+HELPMSG_EXPORT_ACTION
+Ulo¾í akce do souboru
+; Save action to a file
+HELPMSG_IMPORT_CLASS
+Naète tøídy ze souboru
+; Read class from a file
+HELPMSG_EXPORT_CLASS
+Ulo¾í tøídy do souboru
+; Save class to a file
+HELPMSG_INITIALISATION
+Obnoví výchozí nastavení
+; Restore default settings
+HELPMSG_ACCEPT_CHANGES
+Aplikuje provedené zmìny
+; Accept changes
+;
+; Global buttons
+HELPMSG_SAVEPREFS
+Ulo¾ení aktuálního nastavení\ndo adresáøe ENVARC:\na jejich pou¾ití.
+; Save actual prefs\nin ENVARC:\nand use them
+HELPMSG_SAVEASPREFS
+Ulo¾ení aktuálního nastavení\ndo vybraného souboru.
+; Save actual prefs\nin a selected file
+HELPMSG_USEPREFS
+Ulo¾ení aktuálního nastavení\ndo adresáøe ENV:\na jejich pou¾ití.
+; Save actual prefs\nin ENV:\nand use them
+HELPMSG_CANCELPREFS
+Zru¹ení provedených zmìn v nastavení.
+; Abandon changes of prefs
+MSG_SORTING
+Tøídìní...
+; Sorting...
